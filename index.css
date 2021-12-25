@@ -1,0 +1,106 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background: black;
+    color: white;
+}
+input[type="submit"]
+{
+width: 100px;
+height: 40px;
+background: none;
+border: 3px solid white;
+display: block;
+color: white;
+border-radius: 25%;
+margin: 35px auto;
+transition: 0.2s;
+cursor: pointer;
+outline: none;
+}
+input[type="submit"]:hover
+{
+    width: 180px;
+
+}
+input[type="submit"]:active
+{
+    background: gray;
+}
+div.plit
+{
+    display: none;
+    position: absolute;
+    top: 100px;
+    width: 380px;
+    height: 40px;
+    background-color: bisque;
+}
+#gameProcess
+{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+#Hello
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+#mainMenu
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#Options
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#click
+{
+    
+    display: inline;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#back
+{
+
+display: inline;
+position: absolute;
+left: 90%;
+transform: translate(-50%,0);
+
+}
+h1
+{
+    position: absolute;
+    margin: 35px auto;
+    left: 60%;
+    text-align: center;
+    color: white;
+    
+}
+#goodDropPlit
+{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(233, 255, 34), rgb(255, 174, 0), rgb(255, 60, 0), rgb(0,0,0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

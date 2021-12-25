@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+
+    <audio src="materials/backgroundMusic.mp3" autobuffer="true" id="bgAudio"></audio>
+    <div id="Hello">
+        <input type="submit" onclick="Hello()" value="Start"/>
+        <form action="http://www.mcb.by" target="_blank"><input type="submit" onclick="MKP()" value="About Us"/></form>
+        <input type="submit" onclick="window.close()" value="Exit"/>
+    </div>
+    <div id="mainMenu">
+        <input type="submit" onclick="play()" value="Play"/>
+        <input type="submit" onclick="options()" value="Options"/>
+        <input type="submit" onclick="window.close()" value="Exit"/>
+    </div>
+    <div id="gameProcess">
+        <input type="submit" onclick="stop()" value="CLICK!" id = "click"/>
+        <h1 id="goodDropPlit">Great Job!</h1>
+        <input type="submit" onclick="back()" value="Back" id="back"/>
+        <H1 class="text">SCORE: 0</H1>
+    </div>
+    <div id="Options">
+        <input type="submit" onclick="PlitColor()" value="Color" id="chengeCcolr"/>
+        <input type="submit" onclick="Sound()" value="Sound ON" id ="zvuck"/>
+        <input type="submit" onclick="window.back()" value="Back"/>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
